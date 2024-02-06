@@ -14,7 +14,7 @@ namespace analogkeypad {
         "*", "0", "#"
     ];
 
-    //% blockId=setAnalogKeyPad block="set 3*4 AnalogKeyPad pin: pin1 %pin1" blockExternalInputs=false
+    //% blockId=setAnalogKeyPad block="set 3*4 AnalogKeyPad pin: %pin1" blockExternalInputs=false
     //% weight=70
     //% pin1.fieldEditor="gridpicker" pin1.fieldOptions.columns=4
     export function setAnalogKeyPad(pin1: AnalogPin): void {
