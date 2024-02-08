@@ -3,8 +3,9 @@
 
 ## Introduction
 
-This extension allows to handle 3-wire analog keyboard keyboard.
-![icon](https://github.com/K3SoftAndHard/Microbit-AnalogKeyPad/assets/159199811/a665c336-bee1-4454-a2ed-125dd3d1f8b3)
+![icon](https://github.com/K3SoftAndHard/Microbit-AnalogKeyPad/blob/master/icon.png)
+
+This extension allows to handle 1-wire analog keyboard. The keyboard has 3 pins, 2 of them are GND and VCC, data is read from the analog pin having voltage between 0 and VCC. 
 
 
 ## Use as Extension
