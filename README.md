@@ -1,6 +1,12 @@
 
 > Open this page at [https://k3softandhard.github.io/microbit-analogkeypad/](https://k3softandhard.github.io/microbit-analogkeypad/)
 
+## Introduction
+
+This extension allows to handle 3-wire analog keyboard keyboard.
+![icon](https://github.com/K3SoftAndHard/Microbit-AnalogKeyPad/assets/159199811/a665c336-bee1-4454-a2ed-125dd3d1f8b3)
+
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
