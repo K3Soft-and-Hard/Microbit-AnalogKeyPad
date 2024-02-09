@@ -22,8 +22,8 @@ namespace k3analogkeypad {
     }
 
     /**
-     * Returns the key pressed as a String
-     * If no key is currently pressed, returns ""
+     * Returns the key pressed as a string.
+     * If no key is currently pressed, returns empty string.
      */
     //% blockId=keyPressed block="keyPressed"
     export function keyPressed(): string {
