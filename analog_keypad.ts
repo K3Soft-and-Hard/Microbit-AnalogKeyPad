@@ -1,4 +1,4 @@
-//% weight=0 color=#2949c6 icon="\uf11c" block="AnalogKeyPad"
+//% weight=0 color=#2949c6 icon="\uf11c" block="K3AnalogKeyPad"
 namespace k3analogkeypad {
     let pin: AnalogPin = AnalogPin.P0;
     let analogThresholds: number[] = [
