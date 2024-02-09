@@ -1,9 +1,9 @@
 
-> Open this page at [https://k3soft-and-hard.github.io/microbit-analogkeypad/](https://k3soft-and-hard.github.io/microbit-analogkeypad/)
+> Open this page at [https://k3soft-and-hard.github.io/Microbit-AnalogKeyPad/](https://k3soft-and-hard.github.io/Microbit-AnalogKeyPad/)
 
 ## Introduction
 
-![icon](https://github.com/K3Soft-and-Hard/Microbit-AnalogKeyPad/blob/master/icon.png)
+![icon](https://github.com/k3soft-and-hard/Microbit-AnalogKeyPad/blob/master/icon.png)
 
 This extension allows to handle 1-wire analog keyboard. The keyboard has 3 pins, 2 of them are GND and VCC, data is read from the analog pin having voltage between 0 and VCC. 
 
