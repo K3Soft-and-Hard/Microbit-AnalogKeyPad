@@ -1,5 +1,5 @@
 //% weight=0 color=#2949c6 icon="\uf11c" block="AnalogKeyPad"
-namespace analogkeypad {
+namespace k3analogkeypad {
     let pin: AnalogPin = AnalogPin.P0;
     let analogThresholds: number[] = [
         974, 892, 819,
@@ -21,8 +21,8 @@ namespace analogkeypad {
         pin = pin1;
     }
 
-    //% blockId=getKeyString block="AnalogKeyPad value(string)"
-    export function getKeyString(): string {
+    //% blockId=keyPressed block="keyPressed"
+    export function keyPressed(): string {
         let myString = "";
         let value: number = pins.analogReadPin(pin);
         for (let i = 0; i < analogThresholds.length; i++) {
