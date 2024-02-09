@@ -21,6 +21,10 @@ namespace k3analogkeypad {
         pin = pin1;
     }
 
+    /**
+     * Returns the key pressed as a String
+     * If no key is currently pressed, returns ""
+     */
     //% blockId=keyPressed block="keyPressed"
     export function keyPressed(): string {
         let myString = "";
