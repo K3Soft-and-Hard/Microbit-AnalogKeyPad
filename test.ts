@@ -7,3 +7,4 @@ basic.forever(function () {
         basic.showString(c)
     }
 })
+
