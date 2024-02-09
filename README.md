@@ -20,6 +20,10 @@ basic.forever(function () {
 })
 ```
 
+```sig
+k3analogkeypad.keyPressed()
+```
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.
