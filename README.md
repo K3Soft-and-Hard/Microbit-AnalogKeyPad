@@ -16,7 +16,7 @@ k3analogkeypad.setAnalogKeyPad(AnalogPin.P0)
 
 * Test Key Pressed and Show it on Display
 ```blocks
-c = k3analogkeypad.keyPressed()
+c = k3analogkeypad.keyPressed
 if (c != "") {
     basic.showString(c)
 }
