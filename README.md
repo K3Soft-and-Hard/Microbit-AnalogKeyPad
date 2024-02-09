@@ -8,18 +8,21 @@
 This extension allows to handle 1-wire analog keyboard. The keyboard has 3 pins, 2 of them are GND and VCC, data is read from the analog pin having voltage between 0 and VCC. 
 
 ## Usage Example
-```blocks
-let c = ""
-k3analogkeypad.setAnalogKeyPad(AnalogPin.P0)
 
-basic.forever(function () {
-    c = k3analogkeypad.keyPressed()
-    if (c != "") {
-        basic.showString(c)
-    }
-})
+* Initialize AnalogKeyPad Interface
+```blocks
+k3analogkeypad.setAnalogKeyPad(AnalogPin.P0)
 ```
 
+* Test Key Pressed and Show it on Display
+```blocks
+c = k3analogkeypad.keyPressed()
+if (c != "") {
+    basic.showString(c)
+}
+```
+
+* Other
 ```sig
 k3analogkeypad.keyPressed()
 ```
