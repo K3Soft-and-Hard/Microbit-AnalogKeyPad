@@ -11,7 +11,7 @@ This extension allows to handle 1-wire analog keyboard. The keyboard has 3 pins,
 
 * Initialize AnalogKeyPad Interface
 ```blocks
-k3analogkeypad.setAnalogKeyPad(AnalogPin.P0)
+k3analogkeypad.setAnalogKeyPad(AnalogPin.P1)
 ```
 
 * Test Key Pressed and Show it on Display
